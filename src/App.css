@@ -45,5 +45,10 @@
 }
 
 body {
-    font-family: Fustat;
+  font-family: Fustat;
+}
+
+.bg-c1 {
+background: #9DE56B;
+background: linear-gradient(180deg, rgba(157, 229, 107, 1) 9%, rgba(43, 140, 115, 1) 91%);
 }
