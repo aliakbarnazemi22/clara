@@ -54,7 +54,7 @@ function Header() {
                 </div>
             </div>
 
-            {menu === false ? <div></div> : <div className='absolute top-28 left-0 right-0 w-full h-full bg-[#013539]'>
+            {menu === false ? <div></div> : <div className='absolute top-28 left-0 right-0 w-full h-full bg-[#013539] z-50'>
                 <div className="flex flex-col items-center gap-7 px-4">
                     <a href="#" className='text-white text-[16px] font-[400] transition hover:text-[#a3e96a]'>
                         Features
