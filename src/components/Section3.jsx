@@ -2,7 +2,7 @@ import React from 'react'
 
 function Section3() {
     return (
-        <section className='container mx-auto my-32 flex xl:justify-between xl:items-center xl:flex-row flex-col gap-12 xl:gap-0' dir='ltr'>
+        <section className='container mx-auto my-32 flex xl:justify-between xl:items-center xl:flex-row flex-col gap-12 xl:gap-0 px-4 sm:px-0' dir='ltr'>
             <img src="images/sec3.svg" alt="" className='rounded-[3rem] block xl:hidden w-full' />
             <div className="xl:p-[4rem] h-full">
                 <div className="px-[1rem] py-[0.5rem] rounded-[0.5rem] border border-[#066f7629] text-[1rem] text-[#013539] w-[fit-content]">
