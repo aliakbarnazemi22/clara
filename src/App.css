@@ -52,3 +52,15 @@ body {
 background: #9DE56B;
 background: linear-gradient(180deg, rgba(157, 229, 107, 1) 9%, rgba(43, 140, 115, 1) 91%);
 }
+
+.transition3 {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 4000ms;
+}
+
+.transition2 {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
