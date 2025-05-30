@@ -10,7 +10,7 @@ function DownHeroSection() {
             </div>
 
             <div className="px-3">
-                <div className="mt-6 container mx-auto p-4 bg-[#f1f7f3] rounded-[3rem] flex items-center flex-col gap-6 lg:gap-0 lg:flex-row">
+                <div className="container mx-auto p-4 bg-[#f1f7f3] rounded-[3rem] flex items-center flex-col gap-6 lg:gap-0 lg:flex-row">
                     <img src="images/dhs1.avif" alt="" className='rounded-[2rem] w-full lg:w-1/2' />
 
                     <div className="lg:p-[4rem] p-[1rem]">

@@ -8,7 +8,7 @@ function Header() {
             <div className="w-full hidden lg:flex justify-between items-center">
                 <div className="flex items-center gap-8">
                     <a href="#">
-                        <img src="images/logo/logo2.svg" alt="" />
+                        <img src="./images/logo/logo2.svg" alt="" />
                     </a>
 
                     <a href="#" className='text-white text-[16px] font-[400] transition hover:text-[#a3e96a]'>
