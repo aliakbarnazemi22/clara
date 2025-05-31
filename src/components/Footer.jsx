@@ -47,19 +47,68 @@ function Footer() {
                                         Explore
                                     </p>
 
-                                    <div className="mt-6">
-                                        
+                                    <div className="mt-6 flex flex-col gap-4">
+                                        <a href="#" className='text-white text-[18px] font-[500] transition hover:text-[#a3e96a]'>
+                                            Features
+                                        </a>
+                                        <a href="#" className='text-white text-[18px] font-[500] transition hover:text-[#a3e96a]'>
+                                            Integrations
+                                        </a>
+                                        <a href="#" className='text-white text-[18px] font-[500] transition hover:text-[#a3e96a]'>
+                                            Contact
+                                        </a>
+                                        <a href="#" className='text-white text-[18px] font-[500] transition hover:text-[#a3e96a]'>
+                                            Pricing
+                                        </a>
+                                        <a href="#" className='text-white text-[18px] font-[500] transition hover:text-[#a3e96a]'>
+                                            Blog
+                                        </a>
+                                        <a href="#" className='text-white text-[18px] font-[500] transition hover:text-[#a3e96a]'>
+                                            About
+                                        </a>
+                                        <a href="#" className='text-white text-[18px] font-[500] transition hover:text-[#a3e96a]'>
+                                            Privacy Policy
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-1/2">
                                     <p className='text-[.875rem] text-[#fffc]'>
                                         Template
                                     </p>
+
+                                    <div className="mt-6 flex flex-col gap-4">
+                                        <a href="#" className='text-white text-[18px] font-[500] transition hover:text-[#a3e96a]'>
+                                            Features
+                                        </a>
+                                        <a href="#" className='text-white text-[18px] font-[500] transition hover:text-[#a3e96a]'>
+                                            Integrations
+                                        </a>
+                                        <a href="#" className='text-white text-[18px] font-[500] transition hover:text-[#a3e96a]'>
+                                            Contact
+                                        </a>
+                                        <a href="#" className='text-white text-[18px] font-[500] transition hover:text-[#a3e96a]'>
+                                            Pricing
+                                        </a>
+                                        <a href="#" className='text-white text-[18px] font-[500] transition hover:text-[#a3e96a]'>
+                                            Blog
+                                        </a>
+                                        <a href="#" className='text-white text-[18px] font-[500] transition hover:text-[#a3e96a]'>
+                                            About
+                                        </a>
+                                        <a href="#" className='text-white text-[18px] font-[500] transition hover:text-[#a3e96a]'>
+                                            Privacy Policy
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="w-full h-[1px] bg-[#7cdcfa14] my-4"></div>
+                    <div className="w-full h-[1px] bg-[#7cdcfa14] mt-12">
+                    </div>
+
+                    <div className='text-[1rem] text-[#fffc] mt-6'>
+                        © Clara Template 2025. All rights reserved.
+                    </div>
                 </div>
             </div>
         </footer>
