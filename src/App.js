@@ -8,6 +8,7 @@ import Section2 from './components/Section2';
 import Section3 from './components/Section3';
 import FaqSection from './components/FaqSection';
 import LatestBlogs from './components/LatestBlogs';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Section3 />
       <FaqSection />
       <LatestBlogs />
+      <Footer />
     </div>
   );
 }
