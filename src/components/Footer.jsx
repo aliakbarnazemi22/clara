@@ -17,9 +17,9 @@ function Footer() {
                 </p>
             </div>
             <div className="w-full h-auto bg-[#013539] pt-16 pb-6">
-                <div className="container mx-auto">
-                    <div className="flex justify-between">
-                        <div className="w-1/2">
+                <div className="container mx-auto px-4 md:px-0">
+                    <div className="flex lg:justify-between gap-12 lg:gap-0 lg:flex-row flex-col flex-wrap lg:flex-nowrap">
+                        <div className="w-full lg:w-1/2">
                             <img src="images/logo/logo2.svg" alt="" />
 
                             <p className='w-1/2 text-[#fffc] text-[1rem] font-medium mt-5'>
@@ -41,8 +41,8 @@ function Footer() {
                             </div>
                         </div>
                         <div className="w-1/2">
-                            <div className="flex items-center gap-16">
-                                <div className="w-1/2">
+                            <div className="flex flex-col md:flex-row items-center gap-16">
+                                <div className="md:w-1/2 w-full">
                                     <p className='text-[.875rem] text-[#fffc]'>
                                         Explore
                                     </p>
@@ -71,7 +71,7 @@ function Footer() {
                                         </a>
                                     </div>
                                 </div>
-                                <div className="w-1/2">
+                                <div className="md:w-1/2 w-full">
                                     <p className='text-[.875rem] text-[#fffc]'>
                                         Template
                                     </p>
@@ -103,8 +103,7 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full h-[1px] bg-[#7cdcfa14] mt-12">
-                    </div>
+                    <div className="w-full h-[1px] bg-[#7cdcfa14] mt-12"></div>
 
                     <div className='text-[1rem] text-[#fffc] mt-6'>
                         © Clara Template 2025. All rights reserved.
